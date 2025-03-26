@@ -443,6 +443,9 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-\[12px\] {
+    height: 12px;
+  }
   .h-\[40px\] {
     height: 40px;
   }
@@ -463,6 +466,9 @@
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
+  }
+  .w-\[12px\] {
+    width: 12px;
   }
   .w-\[50\%\] {
     width: 50%;
