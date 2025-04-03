@@ -8,8 +8,6 @@
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-green-700: oklch(0.527 0.154 150.069);
-    --color-blue-500: oklch(0.623 0.214 259.815);
-    --color-pink-800: oklch(0.459 0.187 3.815);
     --color-gray-500: oklch(0.551 0.027 264.364);
     --color-black: #000;
     --color-white: #fff;
@@ -440,12 +438,6 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
-  .h-6 {
-    height: calc(var(--spacing) * 6);
-  }
-  .h-\[12px\] {
-    height: 12px;
-  }
   .h-\[40px\] {
     height: 40px;
   }
@@ -466,9 +458,6 @@
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
-  }
-  .w-\[12px\] {
-    width: 12px;
   }
   .w-\[50\%\] {
     width: 50%;
@@ -1088,9 +1077,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-blue-500 {
-    background-color: var(--color-blue-500);
   }
   .bg-green-700 {
     background-color: var(--color-green-700);
@@ -1855,27 +1841,6 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-500);
-      }
-    }
-  }
-  .hover\:bg-pink-800 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-pink-800);
-      }
-    }
-  }
-  .hover\:bg-white {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-white);
-      }
-    }
-  }
-  .hover\:text-black {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-black);
       }
     }
   }
