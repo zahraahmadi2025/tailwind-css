@@ -1376,6 +1376,9 @@
   .object-top {
     object-position: top;
   }
+  .p-0 {
+    padding: calc(var(--spacing) * 0);
+  }
   .py-\[12px\] {
     padding-block: 12px;
   }
