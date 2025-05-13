@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@theme{
+   --animate-image:img 2s linear infinite;
+   @keyframes img{
+0%{
+    transform:rotateX(0deg);
+}
+100%{
+    transform:rotateX(360deg);
+}
+   } 
+   --animate-linechanger:line 3s ease-in 3;
+   @keyframes line{
+    0%{
+        width: 200px;
+    }
+    100%{
+        width: 300px;
+    }
+   }
+}
